@@ -1,0 +1,38 @@
+[
+  {
+    "name": "header",
+    "path": "/header",
+    "component": "/Users/aniketsarkar/Desktop/TestingProjects/NuxtJs/e-commerce-nuxt-js/pages/header.vue",
+    "chunkName": "pages/header"
+  },
+  {
+    "name": "our-team",
+    "path": "/our-team",
+    "component": "/Users/aniketsarkar/Desktop/TestingProjects/NuxtJs/e-commerce-nuxt-js/pages/our-team.vue",
+    "chunkName": "pages/our-team"
+  },
+  {
+    "name": "auth-login",
+    "path": "/auth/login",
+    "component": "/Users/aniketsarkar/Desktop/TestingProjects/NuxtJs/e-commerce-nuxt-js/pages/auth/login.vue",
+    "chunkName": "pages/auth/login"
+  },
+  {
+    "name": "auth-signup",
+    "path": "/auth/signup",
+    "component": "/Users/aniketsarkar/Desktop/TestingProjects/NuxtJs/e-commerce-nuxt-js/pages/auth/signup.vue",
+    "chunkName": "pages/auth/signup"
+  },
+  {
+    "name": "product-products",
+    "path": "/product/products",
+    "component": "/Users/aniketsarkar/Desktop/TestingProjects/NuxtJs/e-commerce-nuxt-js/pages/product/products.vue",
+    "chunkName": "pages/product/products"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/aniketsarkar/Desktop/TestingProjects/NuxtJs/e-commerce-nuxt-js/pages/index.vue",
+    "chunkName": "pages/index"
+  }
+]
