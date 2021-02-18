@@ -2,7 +2,7 @@
     <div id="mainDiv">
                 <div id="heroPart">
                   <!-- This example requires Tailwind CSS v2.0+ -->
-<NavBar />
+<NavBar :isMenuActiveHome='true' :isMenuActiveProduct='false' :isMenuActiveOurTeam='false' :isMenuActiveContactUs='false' :isMenuActiveLogin='false' />
 
 <div class="relative bg-white overflow-hidden">
   <div class="max-w-7xl mx-auto">
@@ -40,7 +40,7 @@
     </div>
   </div>
   <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-    <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80" alt="">
+    <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="/hero-img.jpg" alt="">
   </div>
 </div>
                 </div>

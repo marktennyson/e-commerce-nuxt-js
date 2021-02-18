@@ -24,10 +24,11 @@
             <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
             <!-- <a href="/" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium">Home</a> -->
             
-            <a href="/" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
-      <a href="/product/products" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Products</a>
-      <a href="/our-team" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Team</a>
-      <a href="/auth/login" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Login</a>
+      <a href="/" :class="isMenuActiveHome ? activeMenuClass : defaultMenuClass">Home</a>
+      <a href="/product/products" :class="isMenuActiveProduct ? activeMenuClass : defaultMenuClass">Products</a>
+      <a href="/our-team" :class="isMenuActiveOurTeam ? activeMenuClass : defaultMenuClass">Team</a>
+      <a href="/contact-us" :class="isMenuActiveContactUs ? activeMenuClass : defaultMenuClass">Contact Us</a>
+      <a href="/auth/login" :class="isMenuActiveLogin ? activeMenuClass : defaultMenuClass">Login</a>
           </div>
         </div>
       </div>
@@ -65,6 +66,7 @@
       <a href="/" class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
       <a href="/product/products" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Products</a>
       <a href="/our-team" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Team</a>
+      <a href="/contact-us" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact Us</a>
       <a href="/auth/login" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Login</a>
     </div>
   </div>
@@ -73,10 +75,13 @@
 
 <script>
   export default {
+    props: ['isMenuActiveHome', 'isMenuActiveProduct', 'isMenuActiveOurTeam', 'isMenuActiveContactUs', 'isMenuActiveLogin'],
     data() {
       return {
         Data : false,
         mobileMenuData: true,
+        defaultMenuClass: "text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium",
+        activeMenuClass: "bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium",
       }
     },
     methods: {

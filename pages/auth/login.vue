@@ -1,4 +1,6 @@
 <template>
+<div>
+    <NavBar :isMenuActiveHome='false' :isMenuActiveProduct='false' :isMenuActiveOurTeam='false' :isMenuActiveContactUs='false' :isMenuActiveLogin='true' />
 <div class="flex items-center min-h-screen bg-white dark:bg-gray-900">
     <div class="container mx-auto">
         <div class="max-w-md mx-auto my-10">
@@ -28,5 +30,5 @@
         </div>
     </div>
 </div>
-
+</div>
 </template>
