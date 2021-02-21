@@ -30,5 +30,8 @@
         </div>
     </div>
 </div>
+<div id="Footer">
+                    <Footer />
+                  </div>
 </div>
 </template>

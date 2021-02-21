@@ -12,7 +12,7 @@
         </div>
         <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
           <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-          <a class="text-indigo-500 leading-relaxed">hello@eecomerce.vercel.app</a>
+          <a class="text-indigo-500 leading-relaxed">hello@ecomerces.shop</a>
           <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
           <p class="leading-relaxed">+91-8240205673</p>
         </div>
@@ -38,11 +38,8 @@
     </div>
   </div>
 </section>
+<div id="Footer">
+                    <Footer />
+                  </div>
     </div>
 </template>
-
-<script>
-export default {
-  isMenuActive:true,
-}
-</script>

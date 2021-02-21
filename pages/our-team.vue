@@ -119,5 +119,8 @@
     </div>
   </div>
 </section>
+<div id="Footer">
+                    <Footer />
+                  </div>
     </div>
 </template>
